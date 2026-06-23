@@ -47,19 +47,13 @@ header{
 }
 
 .perfil{
-
-    width:200px;
-
-    height:200px;
-
+    width:220px;
+    height:220px;
     border-radius:50%;
-
     object-fit:cover;
-
-    border:5px solid white;
-
+    border:6px solid white;
+    box-shadow:0 0 25px rgba(255,255,255,0.5);
     margin-bottom:20px;
-
 }
 
 header h1{
@@ -129,31 +123,30 @@ nav{
 }
 
 nav a{
-
     text-decoration:none;
-
     color:#1e3a5f;
-
     font-weight:bold;
-
     margin:0 15px;
+    transition:0.3s;
+}
 
+nav a:hover{
+    color:#0A66C2;
 }
 
 section{
-
     max-width:1000px;
-
     margin:30px auto;
-
     background:white;
-
     padding:30px;
+    border-radius:20px;
+    box-shadow:0 4px 15px rgba(0,0,0,0.08);
+    transition:all 0.3s ease;
+}
 
-    border-radius:15px;
-
-    box-shadow:0 2px 10px rgba(0,0,0,0.08);
-
+section:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
 }
 
 h2{
@@ -223,17 +216,12 @@ th, td{
     border-radius:20px;
 
     font-weight:bold;
-
 }
-
-.amigos{
-
+    .amigos{
     width:100%;
-
-    border-radius:10px;
-
+    border-radius:20px;
     margin-bottom:20px;
-
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
 }
 
 .enlaces a{
